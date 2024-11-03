@@ -1,0 +1,72 @@
+.hero nav li {
+    margin-right: 30px;
+}
+.btn{
+    padding: 16px 30px;
+    border-radius: 5px;
+}
+.btn-warning{
+    background: #fbb52e ;
+    color: black ;
+}
+
+.bg-warning{
+    background: #fbb52e !important;
+}
+p{
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+.text-warning{
+    color: #fbb52e !important;
+}
+
+/* Start About */
+.about{
+    margin: 100px 0;
+}
+.about-content{
+    margin: 40px 0;
+}
+
+.about-content h2{
+    color: #fbb52e;
+}
+
+/* End About */
+
+
+/* Start Skill */
+.skills{
+    margin: 100px 0;
+}
+.skills .card{
+    min-height: 350px;
+    transition: 0.3s;
+    
+}
+
+.skills .card:hover{
+    background: #fbb52e !important;
+    transition: 0.3s;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.skills .card:hover *{
+    color: black !important;
+    transition: 0.3s;
+
+}
+
+/* ENd Skill */
+
+/* Start Contact */
+.contact{
+    margin: 200px 0;
+}
+.info-content{
+    color: white;
+}
+
+/* End Contact */
